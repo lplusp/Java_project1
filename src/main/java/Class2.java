@@ -1,5 +1,5 @@
 public class Class2 {
-    static int i = 123456;
+    int i = 123456;
 
     public String constructString() {
         int val = i;
