@@ -1,7 +1,10 @@
 public class Class2 {
+    static int i = 123456;
+
     public String constructString() {
-        Integer i = 123456;
-        System.out.println("---" + i + "---");
-        return String.valueOf(i);
+        int val = i;
+        String result = String.format("---%d---", val);
+        System.out.println(result);
+        return String.valueOf(val);
     }
 }
